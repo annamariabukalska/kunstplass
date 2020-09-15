@@ -8,9 +8,50 @@ img {
 a {
   color: inherit; }
 
+h1, h2, h3 {
+  font-size: 83px;
+  color: #ADB5BD; }
+
+h1 {
+  text-align: left;
+  word-spacing: 10em; }
+
+h2 {
+  text-align: center; }
+
+h3 {
+  cursor: pointer;
+  right: 0;
+  position: fixed;
+  top: -22px; }
+
+h3:hover {
+  color: #EB5E28; }
+
+.question {
+  text-align: left;
+  color: #212529;
+  line-height: 1.4em;
+  text-align: justify;
+  min-width: 450px;
+  max-width: 650px;
+  text-align: left;
+  padding: 5px;
+  margin: 0px;
+  overflow: hidden; }
+
+p {
+  columns: 2; }
+
+img {
+  width: 100%; }
+
+a {
+  color: inherit; }
+
 body {
   color: black;
-  background: blue; }
+  background: #F8F9FA; }
 
 figure {
   padding-right: 2em;
@@ -28,3 +69,6 @@ figure {
 h1, h2, h3 {
   font-size: 83px;
   color: #ADB5BD; }
+
+.header {
+  background: black; }
